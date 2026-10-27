@@ -1,0 +1,124 @@
+
+/* Verander deze kleuren naar jouw smaak */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f5ff;
+    color: #263248;
+    line-height: 1.7;
+}
+
+/* Bovenkant van de website */
+
+header {
+    background-color: #243b64;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin-top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #a5d8ff;
+    text-decoration: underline;
+}
+
+/* Inhoud van de pagina */
+
+main {
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.intro {
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #00000012;
+}
+
+.kaart {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #00000012;
+}
+
+h2 {
+    color: #315b9a;
+}
+
+/* Foto */
+
+.profielfoto {
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+/* Knoppen */
+
+.knop {
+    display: inline-block;
+    background-color: #315b9a;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.knop:hover {
+    background-color: #1c3766;
+}
+
+.terug {
+    text-align: center;
+}
+
+/* Onderkant van de website */
+
+footer {
+    background-color: #243b64;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* Mobiele telefoon */
+
+@media (max-width: 600px) {
+    main {
+        padding: 12px;
+    }
+
+    header {
+        padding: 18px 10px;
+    }
+
+    nav a {
+        margin: 0 6px;
+    }
+
+    .intro,
+    .kaart {
+        padding: 18px;
+    }
+}
